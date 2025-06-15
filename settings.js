@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "malvin~1rkAhBYL#YkbGnE92UlpWHx9LZfBOyN4hq5O_slMpicCZS295NAs",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -118,7 +118,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
       ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'inbox/ same if you want to resend deleted message in same chat 
 
-      AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+      AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
 
 version: process.env.version || "0.0.5",
